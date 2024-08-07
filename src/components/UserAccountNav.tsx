@@ -92,7 +92,7 @@ const UserAccountNav = async ({
 
         <DropdownMenuItem className='cursor-pointer'>
           <SignOutButton>
-            <button>log out</button>
+            <button>Log out</button>
           </SignOutButton>
         </DropdownMenuItem>
       </DropdownMenuContent>

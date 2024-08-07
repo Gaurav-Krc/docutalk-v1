@@ -133,9 +133,11 @@ const UploadButton = ({isSubscribed}: {isSubscribed: boolean}) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
-    <Dialog>
-      <DialogTrigger asChild>
-        <Button>Upload PDF</Button>
+    <Dialog open={isOpen} onOpenChange={(v) => {
+      if (!v) setIsOpen(v);
+    }}>
+      <DialogTrigger onClick={() => setIsOpen(true)} asChild>
+        <Button  disabled={isOpen}>Upload PDF</Button>
       </DialogTrigger>
 
       <DialogContent className="sm:max-w-[425px]">
