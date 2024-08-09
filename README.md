@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Docutalk 🚀                                                                                
+                      
 
-## Getting Started
+Welcome 👋 to docutalk- An AI-Powered PDF Chat Application which enables users to interact with uploaded PDFs through real-time, streamed AI responses.           
+  
 
-First, run the development server:
+![App Screenshot](https://github.com/Gaurav-Krc/docutalk-v1/blob/main/public/dashboard-preview.png)
+                    
+  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 **Fast and Seamless Authentication:** Effortless and rapid sign-up and login process, ensuring users can start interacting with their documents without delay.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 **Interactive PDF Viewer:** Users can view and enlarge PDFs for an enhanced reading experience.                    
+  
+👉 **Optimistic Updates:** Provides instant feedback during interactions, offering a smooth and responsive user experience.                    
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+👉 **Infinite Queries:** Engage in limitless conversations with your documents, making information retrieval quick and convenient.                    
 
-## Learn More
+👉 **Free/Pro Subscriptions:**: The platform supports both free and pro subscriptions, allowing pro users to upload files larger than 4MB.                    
+  
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+…and much more, including a focus on code architecture and reusability.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## ⚙️ Tech Stack
+- **Next.js**
+- **TypeScript**
+- **TRPC**
+- **Prisma**
+- **TailwindCSS**
+- **OpenAI**
+- **GoogleAI**
+- **Pinecone**
+- **Stripe**
+- **Clerk**                    
+                      
+---
+Check out the website: [Docutalk](https://docutalk-v1.vercel.app/)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you 😊 for checking out my project!                    
+  
